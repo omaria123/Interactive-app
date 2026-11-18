@@ -7,8 +7,9 @@
             </a>
             <ul class="nav-links">
                 <li><a href="/">Главная</a></li>
+                <li><a href="{{ route('posts.index') }}">Статьи</a></li>
                 <li><a href="{{ route('form.show') }}">Форма</a></li>
-                <li><a href="{{ route('records') }}">Таблица записей</a></li>
+                <li><a href="{{ route('records') }}">Таблица файлов</a></li>
             </ul>
         </div>
     </div>
